@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import 'papercss/dist/paper.min.css';
 
 // Create a single QueryClient instance (manage all queries)
-const QueryClient = new QueryClient();
+const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
